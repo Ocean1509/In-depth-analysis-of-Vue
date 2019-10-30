@@ -10,7 +10,7 @@
     "fontsettings": {
       "theme": "white",
       "family": "sans",
-      "size": 3
+      "size": 2
     },
     "prism": {
       "css": [
