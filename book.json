@@ -1,5 +1,7 @@
 {
   "plugins": [
+    "theme-comscore",
+    "book-summary-scroll-position-saver",
     "prism",
     "-highlight",
     "copy-code-button",
