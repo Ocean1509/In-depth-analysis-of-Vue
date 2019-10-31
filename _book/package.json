@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "gitbook-plugin-baidu": "^0.1.0",
     "gitbook-plugin-copy-code-button": "0.0.2",
     "gitbook-theme-comscore": "0.0.3"
   },
