@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>彻底搞懂Vue中keep-alive的魔法-上 · GitBook</title>
+        <title>13.彻底搞懂Vue中keep-alive的魔法-上 · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -17,6 +17,10 @@
     
             
                 
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
+                
+            
+                
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
                 
             
@@ -26,10 +30,6 @@
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
@@ -46,7 +46,7 @@
 
     
         
-    
+        <link rel="stylesheet" href="../reset.css">
         
     
         
@@ -59,6 +59,7 @@
     
 
         
+    
     
     
     <meta name="HandheldFriendly" content="true"/>
@@ -75,6 +76,17 @@
     <link rel="prev" href="动态组件的深入分析.html" />
     
 
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"Ocean1509","repo":"In-depth-analysis-of-Vue","type":"star","size":"small"}]};
+    </script>
+
     </head>
     <body>
         
@@ -82,10 +94,6 @@
     <div class="book-summary">
         
             
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
             
                 <nav role="navigation">
                 
@@ -119,7 +127,7 @@
                 <a href="丰富的选项合并策略.html">
             
                     
-                    丰富的选项合并策略
+                    1.丰富的选项合并策略
             
                 </a>
             
@@ -461,7 +469,7 @@
                 <a href="基础的数据代理检测.html">
             
                     
-                    基础的数据代理检测
+                    2.基础的数据代理检测
             
                 </a>
             
@@ -583,7 +591,7 @@
                 <a href="实例挂载流程和模板编译.html">
             
                     
-                    实例挂载流程和模板编译
+                    3.实例挂载流程和模板编译
             
                 </a>
             
@@ -763,7 +771,7 @@
                 <a href="完整渲染流程.html">
             
                     
-                    完整渲染流程
+                    4.完整渲染流程
             
                 </a>
             
@@ -982,7 +990,7 @@
                 <a href="组件基础剖析.html">
             
                     
-                    组件基础剖析
+                    5.组件基础剖析
             
                 </a>
             
@@ -1188,7 +1196,7 @@
                 <a href="组件高级用法.html">
             
                     
-                    组件高级用法
+                    6.组件高级用法
             
                 </a>
             
@@ -1362,7 +1370,7 @@
                 <a href="深入响应式系统构建-上.html">
             
                     
-                    深入响应式系统构建-上
+                    7.深入响应式系统构建-上
             
                 </a>
             
@@ -1588,7 +1596,7 @@
                 <a href="深入响应式系统构建-中.html">
             
                     
-                    深入响应式系统构建-中
+                    7.深入响应式系统构建-中
             
                 </a>
             
@@ -1736,7 +1744,7 @@
                 <a href="深入响应式系统构建-下.html">
             
                     
-                    深入响应式系统构建-下
+                    7.深入响应式系统构建-下
             
                 </a>
             
@@ -1942,7 +1950,7 @@
                 <a href="来，跟我一起实现diff算法.html">
             
                     
-                    来，跟我一起实现diff算法
+                    8.来，跟我一起实现diff算法
             
                 </a>
             
@@ -2155,7 +2163,7 @@
                 <a href="揭秘Vue的事件机制.html">
             
                     
-                    揭秘Vue的事件机制
+                    9.揭秘Vue的事件机制
             
                 </a>
             
@@ -2284,7 +2292,7 @@
                 <a href="vue插槽，你想了解的都在这里.html">
             
                     
-                    vue插槽，你想了解的都在这里
+                    10.vue插槽，你想了解的都在这里
             
                 </a>
             
@@ -2516,7 +2524,7 @@
                 <a href="你真的了解v-model的语法糖了吗.html">
             
                     
-                    你真的了解v-model的语法糖了吗
+                    11.你真的了解v-model的语法糖了吗
             
                 </a>
             
@@ -2632,7 +2640,7 @@
                 <a href="动态组件的深入分析.html">
             
                     
-                    动态组件的深入分析
+                    12.动态组件的深入分析
             
                 </a>
             
@@ -2793,7 +2801,7 @@
                 <a href="彻底搞懂Vue中keep-alive的魔法-上.html">
             
                     
-                    彻底搞懂Vue中keep-alive的魔法-上
+                    13.彻底搞懂Vue中keep-alive的魔法-上
             
                 </a>
             
@@ -2922,7 +2930,7 @@
                 <a href="彻底搞懂Vue中keep-alive的魔法-下.html">
             
                     
-                    彻底搞懂Vue中keep-alive的魔法-下
+                    13.彻底搞懂Vue中keep-alive的魔法-下
             
                 </a>
             
@@ -3127,7 +3135,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >彻底搞懂Vue中keep-alive的魔法-上</a>
+        <a href=".." >13.彻底搞懂Vue中keep-alive的魔法-上</a>
     </h1>
 </div>
 
@@ -3137,13 +3145,10 @@
                     <div class="page-wrapper" tabindex="-1" role="main">
                         <div class="page-inner">
                             
-<div id="book-search-results">
-    <div class="search-noresults">
-    
                                 <section class="normal markdown-section">
                                 
                                 <blockquote>
-<p>&#x4E0A;&#x4E00;&#x8282;&#x6700;&#x540E;&#x7A0D;&#x5FAE;&#x63D0;&#x5230;&#x4E86;<code>Vue</code>&#x5185;&#x7F6E;&#x7EC4;&#x4EF6;&#x7684;&#x76F8;&#x5173;&#x5185;&#x5BB9;&#xFF0C;&#x4ECE;&#x8FD9;&#x4E00;&#x8282;&#x5F00;&#x59CB;&#xFF0C;&#x5C06;&#x4F1A;&#x5BF9;&#x67D0;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x5185;&#x7F6E;&#x7EC4;&#x4EF6;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;&#x9996;&#x5148;&#x662F;<code>keep-alive</code>&#xFF0C;&#x5B83;&#x662F;&#x6211;&#x4EEC;&#x65E5;&#x5E38;&#x5F00;&#x53D1;&#x4E2D;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x6211;&#x4EEC;&#x5728;&#x4E0D;&#x540C;&#x7EC4;&#x4EF6;&#x95F4;&#x5207;&#x6362;&#x65F6;&#xFF0C;&#x7ECF;&#x5E38;&#x8981;&#x6C42;&#x4FDD;&#x6301;&#x7EC4;&#x4EF6;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4EE5;&#x907F;&#x514D;&#x91CD;&#x590D;&#x6E32;&#x67D3;&#x7EC4;&#x4EF6;&#x9020;&#x6210;&#x7684;&#x6027;&#x80FD;&#x635F;&#x8017;&#xFF0C;&#x800C;<code>keep-alive</code>&#x7ECF;&#x5E38;&#x548C;&#x4E0A;&#x4E00;&#x8282;&#x4ECB;&#x7ECD;&#x7684;&#x52A8;&#x6001;&#x7EC4;&#x4EF6;&#x7ED3;&#x5408;&#x8D77;&#x6765;&#x4F7F;&#x7528;&#x3002;&#x7531;&#x4E8E;&#x5185;&#x5BB9;&#x8FC7;&#x591A;&#xFF0C;<code>keep-alive</code>&#x7684;&#x6E90;&#x7801;&#x5206;&#x6790;&#x5C06;&#x5206;&#x4E3A;&#x4E0A;&#x4E0B;&#x4E24;&#x90E8;&#x5206;&#xFF0C;&#x8FD9;&#x4E00;&#x8282;&#x4E3B;&#x8981;&#x56F4;&#x7ED5;<code>keep-alive</code>&#x7684;&#x9996;&#x6B21;&#x6E32;&#x67D3;&#x5C55;&#x5F00;&#x3002;</p>
+<p>&#x524D;&#x8A00;&#xFF1A;&#x4E0A;&#x4E00;&#x8282;&#x6700;&#x540E;&#x7A0D;&#x5FAE;&#x63D0;&#x5230;&#x4E86;<code>Vue</code>&#x5185;&#x7F6E;&#x7EC4;&#x4EF6;&#x7684;&#x76F8;&#x5173;&#x5185;&#x5BB9;&#xFF0C;&#x4ECE;&#x8FD9;&#x4E00;&#x8282;&#x5F00;&#x59CB;&#xFF0C;&#x5C06;&#x4F1A;&#x5BF9;&#x67D0;&#x4E2A;&#x5177;&#x4F53;&#x7684;&#x5185;&#x7F6E;&#x7EC4;&#x4EF6;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;&#x9996;&#x5148;&#x662F;<code>keep-alive</code>&#xFF0C;&#x5B83;&#x662F;&#x6211;&#x4EEC;&#x65E5;&#x5E38;&#x5F00;&#x53D1;&#x4E2D;&#x7ECF;&#x5E38;&#x4F7F;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#xFF0C;&#x6211;&#x4EEC;&#x5728;&#x4E0D;&#x540C;&#x7EC4;&#x4EF6;&#x95F4;&#x5207;&#x6362;&#x65F6;&#xFF0C;&#x7ECF;&#x5E38;&#x8981;&#x6C42;&#x4FDD;&#x6301;&#x7EC4;&#x4EF6;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4EE5;&#x907F;&#x514D;&#x91CD;&#x590D;&#x6E32;&#x67D3;&#x7EC4;&#x4EF6;&#x9020;&#x6210;&#x7684;&#x6027;&#x80FD;&#x635F;&#x8017;&#xFF0C;&#x800C;<code>keep-alive</code>&#x7ECF;&#x5E38;&#x548C;&#x4E0A;&#x4E00;&#x8282;&#x4ECB;&#x7ECD;&#x7684;&#x52A8;&#x6001;&#x7EC4;&#x4EF6;&#x7ED3;&#x5408;&#x8D77;&#x6765;&#x4F7F;&#x7528;&#x3002;&#x7531;&#x4E8E;&#x5185;&#x5BB9;&#x8FC7;&#x591A;&#xFF0C;<code>keep-alive</code>&#x7684;&#x6E90;&#x7801;&#x5206;&#x6790;&#x5C06;&#x5206;&#x4E3A;&#x4E0A;&#x4E0B;&#x4E24;&#x90E8;&#x5206;&#xFF0C;&#x8FD9;&#x4E00;&#x8282;&#x4E3B;&#x8981;&#x56F4;&#x7ED5;<code>keep-alive</code>&#x7684;&#x9996;&#x6B21;&#x6E32;&#x67D3;&#x5C55;&#x5F00;&#x3002;</p>
 </blockquote>
 <h2 id="131-&#x57FA;&#x672C;&#x7528;&#x6CD5;">13.1 &#x57FA;&#x672C;&#x7528;&#x6CD5;</h2>
 <p><code>keep-alive</code>&#x7684;&#x4F7F;&#x7528;&#x53EA;&#x9700;&#x8981;&#x5728;&#x52A8;&#x6001;&#x7EC4;&#x4EF6;&#x7684;&#x6700;&#x5916;&#x5C42;&#x6DFB;&#x52A0;&#x6807;&#x7B7E;&#x5373;&#x53EF;&#x3002;</p>
@@ -3493,22 +3498,6 @@
                                 
                                 </section>
                             
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
                         </div>
                     </div>
                 
@@ -3532,7 +3521,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"彻底搞懂Vue中keep-alive的魔法-上","level":"1.16","depth":1,"next":{"title":"13.1 基本用法","level":"1.16.1","depth":2,"anchor":"#131-基本用法","path":"src/彻底搞懂Vue中keep-alive的魔法-上.md","ref":"src/彻底搞懂Vue中keep-alive的魔法-上.md#131-基本用法","articles":[]},"previous":{"title":"12.3.2 注册内置组件","level":"1.15.3.2","depth":3,"anchor":"#1232-注册内置组件","path":"src/动态组件的深入分析.md","ref":"src/动态组件的深入分析.md#1232-注册内置组件","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["theme-comscore","book-summary-scroll-position-saver","prism","-highlight","copy-code-button","expandable-chapters-small"],"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css","prismjs/themes/prism-tomorrow.css"],"lang":{"js":"javascript"}},"book-summary-scroll-position-saver":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"src/彻底搞懂Vue中keep-alive的魔法-上.md","mtime":"2019-10-30T09:55:10.387Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-30T10:00:53.526Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"13.彻底搞懂Vue中keep-alive的魔法-上","level":"1.16","depth":1,"next":{"title":"13.1 基本用法","level":"1.16.1","depth":2,"anchor":"#131-基本用法","path":"src/彻底搞懂Vue中keep-alive的魔法-上.md","ref":"src/彻底搞懂Vue中keep-alive的魔法-上.md#131-基本用法","articles":[]},"previous":{"title":"12.3.2 注册内置组件","level":"1.15.3.2","depth":3,"anchor":"#1232-注册内置组件","path":"src/动态组件的深入分析.md","ref":"src/动态组件的深入分析.md#1232-注册内置组件","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters","theme-comscore","prism","-highlight","copy-code-button","expandable-chapters-small","3-ba","github-buttons","-search","livereload"],"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css","prismjs/themes/prism-tomorrow.css"],"lang":{"js":"javascript"}},"github":{"url":"https://github.com/Ocean1509/In-depth-analysis-of-Vue"},"livereload":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"Ocean1509","repo":"In-depth-analysis-of-Vue","type":"star","size":"small"}]},"3-ba":{"configuration":"auto","token":"bb1e9ac377f4d404200165def36e9f1d"},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"reset.css","ebook":"reset.css","pdf":"reset.css","mobi":"reset.css","epub":"reset.css"}},"file":{"path":"src/彻底搞懂Vue中keep-alive的魔法-上.md","mtime":"2019-11-01T09:20:59.634Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-01T10:03:16.945Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -3542,7 +3531,7 @@
     <script src="../gitbook/theme.js"></script>
     
         
-        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
         
     
         
@@ -3554,11 +3543,15 @@
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
         
     
         
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
