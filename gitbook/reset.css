@@ -1,0 +1,31 @@
+pre[class*="language-"] {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3,
+.markdown-section h4,
+.markdown-section h5,
+.markdown-section h6 {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.book-summary ul.summary li.active>a {
+  background-color: #42b983;
+  color: #fff;
+}
+
+.book .book-summary .exc-trigger {
+  display: none;
+}
+
+.book-summary {
+  background-color: #fff
+}
+
+h2 {
+  color: #42b983;
+}

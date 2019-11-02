@@ -1,16 +1,22 @@
 {
   "plugins": [
+    "theme-comscore",
+    "book-summary-scroll-position-saver",
     "prism",
     "-highlight",
     "copy-code-button",
-    "expandable-chapters-small"
+    "expandable-chapters-small",
+    "3-ba",
+    "github",
+    "github-buttons",
+    "-search"
   ],
   "pluginsConfig": {
     "expandable-chapters": {},
     "fontsettings": {
       "theme": "white",
       "family": "sans",
-      "size": 3
+      "size": 2
     },
     "prism": {
       "css": [
@@ -20,6 +26,25 @@
       "lang": {
         "js": "javascript"
       }
+    },
+    "3-ba": {
+      "token": "bb1e9ac377f4d404200165def36e9f1d"
+    },
+    "github": {
+      "url": "https://github.com/Ocean1509/In-depth-analysis-of-Vue"
+    },
+    "github-buttons": {
+      "buttons": [{
+        "user": "Ocean1509",
+        "repo": "In-depth-analysis-of-Vue",
+        "type": "star",
+        "size": "large"
+      }, {
+        "user": "Ocean1509",
+        "type": "follow",
+        "width": "230",
+        "count": false
+      }]
     }
   }
 }

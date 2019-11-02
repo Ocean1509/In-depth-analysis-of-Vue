@@ -468,7 +468,7 @@ function genComponentModel (el,value,modifiers) {
     var number = ref.number;
     var trim = ref.trim;
 
-    var baseValueExpression = '###v';
+    var baseValueExpression = '$$v';
     var valueExpression = baseValueExpression;
     if (trim) {
       valueExpression =
@@ -492,7 +492,7 @@ function genComponentModel (el,value,modifiers) {
 ```js
 {
   model: {
-    callback: "function (###v) {message=###v}"
+    callback: "function ($$v) {message=$$v}"
     expression: ""message""
     value: "(message)"
   }
@@ -514,7 +514,7 @@ function genData$2 (el, state) {
 ```
 因此，父组件最终的```render```函数表现为：
 ```js
-"_c('child',{model:{value:(message),callback:function (###v) {message=###v},expression:"message"}})"
+"_c('child',{model:{value:(message),callback:function ($$v) {message=$$v},expression:"message"}})"
 ```
 
 子组件的创建阶段照例会执行```createComponent ```，其中针对```model```的逻辑需要特别说明。
