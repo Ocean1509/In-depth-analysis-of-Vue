@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>7.深入响应式系统构建-中 · GitBook</title>
+        <title>7.深入响应式系统构建-中 · 深入剖析Vue源码</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -3711,7 +3711,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"7.深入响应式系统构建-中","level":"1.9","depth":1,"next":{"title":"7.8 相关概念","level":"1.9.1","depth":2,"anchor":"#78-相关概念","path":"src/深入响应式系统构建-中.md","ref":"src/深入响应式系统构建-中.md#78-相关概念","articles":[]},"previous":{"title":"7.7 小结","level":"1.8.7","depth":2,"anchor":"#77-小结","path":"src/深入响应式系统构建-上.md","ref":"src/深入响应式系统构建-上.md#77-小结","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters","theme-comscore","prism","-highlight","copy-code-button","expandable-chapters-small","3-ba","github-buttons","-search","livereload"],"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css","prismjs/themes/prism-tomorrow.css"],"lang":{"js":"javascript"}},"github":{"url":"https://github.com/Ocean1509/In-depth-analysis-of-Vue"},"livereload":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"Ocean1509","repo":"In-depth-analysis-of-Vue","type":"star","size":"small"}]},"3-ba":{"configuration":"auto","token":"bb1e9ac377f4d404200165def36e9f1d"},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"reset.css","ebook":"reset.css","pdf":"reset.css","mobi":"reset.css","epub":"reset.css"}},"file":{"path":"src/深入响应式系统构建-中.md","mtime":"2019-11-01T07:31:13.877Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-01T10:03:16.945Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"7.深入响应式系统构建-中","level":"1.9","depth":1,"next":{"title":"7.8 相关概念","level":"1.9.1","depth":2,"anchor":"#78-相关概念","path":"src/深入响应式系统构建-中.md","ref":"src/深入响应式系统构建-中.md#78-相关概念","articles":[]},"previous":{"title":"7.7 小结","level":"1.8.7","depth":2,"anchor":"#77-小结","path":"src/深入响应式系统构建-上.md","ref":"src/深入响应式系统构建-上.md#77-小结","articles":[]},"dir":"ltr"},"config":{"plugins":["toggle-chapters","theme-comscore","prism","-highlight","copy-code-button","expandable-chapters-small","3-ba","github-buttons","-search"],"styles":{"website":"reset.css","ebook":"reset.css","pdf":"reset.css","mobi":"reset.css","epub":"reset.css"},"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-solarizedlight.css","prismjs/themes/prism-tomorrow.css"],"lang":{"js":"javascript"}},"github":{"url":"https://github.com/Ocean1509/In-depth-analysis-of-Vue"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{},"github-buttons":{"buttons":[{"user":"Ocean1509","repo":"In-depth-analysis-of-Vue","type":"star","size":"small"}]},"3-ba":{"configuration":"auto","token":"bb1e9ac377f4d404200165def36e9f1d"},"expandable-chapters-small":{},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{},"expandable-chapters":{}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"深入剖析Vue源码","gitbook":"*"},"file":{"path":"src/深入响应式系统构建-中.md","mtime":"2019-11-01T10:03:20.067Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-04T06:06:34.082Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -3738,10 +3738,6 @@
     
         
         <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-livereload/plugin.js"></script>
         
     
         
