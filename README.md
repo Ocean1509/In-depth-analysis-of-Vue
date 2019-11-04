@@ -1,6 +1,6 @@
 # 深入剖析Vue源码
 
-![](./src/img/vue.jpg)
+![](https://user-gold-cdn.xitu.io/2019/10/14/16dc938b94904285?imageView2/1/w/1080/h/320/q/85/format/webp/interlace/1)
 
 ## gitbook地址
 
