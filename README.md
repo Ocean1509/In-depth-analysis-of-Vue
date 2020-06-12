@@ -2,9 +2,9 @@
 
 ![](https://user-gold-cdn.xitu.io/2019/10/14/16dc938b94904285?imageView2/1/w/1080/h/320/q/85/format/webp/interlace/1)
 
-## gitbook地址
+## 网站地址
 
-[深入剖析Vue源码](https://ocean1509.github.io/In-depth-analysis-of-Vue)
+[深入剖析Vue源码](https://book.penblog.cn)
 
 
 ## 章节结构
