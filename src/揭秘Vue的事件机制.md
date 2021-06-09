@@ -152,7 +152,7 @@ function generate (ast,options) {
     }
   }
 ```
-其中核心处理在```getElement```中,```getElement```函数会根据不同指令类型处理不同的分支，对于普通模板的编译会进入```genData```函数中处理，同样分析只针对事件相关的处理，从前面解析出的```AST```树明显看出，```AST```树中多了```events```的属性,```genHandlers```函数会为```event```属性做逻辑处理。
+其中核心处理在```genElement```中,```genElement```函数会根据不同指令类型处理不同的分支，对于普通模板的编译会进入```genData```函数中处理，同样分析只针对事件相关的处理，从前面解析出的```AST```树明显看出，```AST```树中多了```events```的属性,```genHandlers```函数会为```event```属性做逻辑处理。
 ```js
 function genData (el, state) {
     var data = '{';
