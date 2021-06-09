@@ -70,6 +70,8 @@
 内置组件中最重要，也是最经常使用的是```keep-alive```组件，我们将```keep-alive```配合动态组件```is```使用，达到在切换组件的同时，将旧组件进行缓存，以便保留初始状态的目的。```keep-alive```有不同于其他组件的生命周期，并且他在缓存上也做了优化。
 
 
-
+##### 码字不易，感谢支持
+![](https://static.sitestack.cn/projects/5865c0921b69e6006b3145a1/15cdfd3ae70566f9.png)
+![](https://static.sitestack.cn/projects/5865c0921b69e6006b3145a1/15cdfd3ed2af6660.png)
 
 
